@@ -124,4 +124,3 @@ Feel free to contribute! Open a pull request or report issues.
 📧 Email: revanthagastya12345@gmail.com 
 🌐 GitHub: [your-username](https://github.com/Revanth-1707)  
 🚀 Deployed App: [EC2-Public-IP:8080](http://your-ec2-public-ip:8081)  
-=
