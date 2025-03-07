@@ -52,7 +52,7 @@ Before running the pipeline, ensure you have:
 This pipeline performs the following:  
 1. **Pulls the source code** from GitHub  
 2. **Builds a WAR file** using Maven  
-3. **Transfers the WAR file** to a remote EC2 instance  
+3. **Transfers the WAR file, Dockerfile, Ansible playbook** to a remote EC2 instance  
 4. **Builds & pushes** a Docker image  
 5. **Runs Ansible Playbook** to configure the server  
 
