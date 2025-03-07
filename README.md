@@ -68,7 +68,7 @@ ssh -i your-key.pem ec2-user@your-ec2-public-ip
 ### **2️⃣ Pull & Run Docker Image**  
 ```bash
 docker pull your-dockerhub-username/portfolio
-docker run -d --name tomcat -p 8080:8080 your-dockerhub-username/portfolio
+docker run -d --name tomcat -p 8081:8080 your-dockerhub-username/portfolio
 ```
 
 ### **3️⃣ Run Ansible Playbook** (If not automated in Jenkins)  
