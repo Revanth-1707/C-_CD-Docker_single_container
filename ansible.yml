@@ -1,0 +1,17 @@
+---
+- name: Deploy to wrokers
+  hosts: localhost
+  user: ansible
+  connection: ssh
+  gather_facts: false
+  become: yes  
+  tasks:
+
+    - name: Pull Docker image from Docker Hub
+      command: docker pull reva1707/portfolio
+
+    - name: Stop and remove existing container
+      command: docker rm -f portfolio
+
+    - name: Run new container
+      command: docker run -d --name portfolio -p 8081:8080 reva1707/portfolio
