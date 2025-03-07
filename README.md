@@ -122,5 +122,5 @@ Feel free to contribute! Open a pull request or report issues.
 
 ### **🌍 Contact**  
 📧 Email: revanthagastya12345@gmail.com 
-🌐 GitHub: [your-username](https://github.com/Revanth-1707)  
+🌐 GitHub: [Revanth-1707](https://github.com/Revanth-1707)  
 🚀 Deployed App: [EC2-Public-IP:8081]  
