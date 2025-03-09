@@ -110,11 +110,6 @@ docker ps -a
 
 ---
 
-## **📜 License**  
-This project is **MIT licensed**.  
-
----
-
 ### 🎯 **Contributing**  
 Feel free to contribute! Open a pull request or report issues.  
 
